@@ -29,7 +29,10 @@ nav{
     border-radius: 25px;
 padding: 5px;
 color: #56042C;}
-/* body area */
+
+/*---------------- body area
+----------------------------- */
+
 .Top-head{
     background-color: #56042C;
 }
@@ -83,6 +86,8 @@ font-weight: 500;}
     font-size: 16px;
     font-weight: 400;
 }
+/* subscribe */
+.Subscribe
 /* footer aera */
 footer{text-align: center;
 background-color: #FEC310;
@@ -100,4 +105,42 @@ footer img {
     font-size: 25px;
     font-weight: 700;
     color: #56042C;
+}
+/* Mobile device  */
+@media only screen and (max-width:688px) {
+    nav{
+        display: hidden;
+    }
+    .container{ flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+#banner img {width: 100%;}
+#main-headline{width:25%;
+    font-size: 40px;
+            }
+.articles {display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                margin: 5px;}
+}
+/* tablet devices */
+@media only screen and (min-width:688px) and (max-width:992px){
+
+    nav{
+        display: hidden;
+    }
+    .container{ flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+#banner img {width: 100%;}
+#main-headline{width:25%;
+    font-size: 40px;
+            }
+.articles {display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                margin: 5px;}
+}
 }
