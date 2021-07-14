@@ -87,7 +87,16 @@ font-weight: 500;}
     font-weight: 400;
 }
 /* subscribe */
-.Subscribe
+
+.Subscribe{text-align: center;
+    margin: 20px 0 10px;
+    padding: 20px 0;
+
+}
+.subscribe-form{color: #56042C;
+}
+#subs{color: white;
+    background-color: #56042C;}
 /* footer aera */
 footer{text-align: center;
 background-color: #FEC310;
